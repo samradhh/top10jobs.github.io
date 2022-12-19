@@ -1,0 +1,25 @@
+body
+{
+    background-color:rgb(127, 212, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    background: linear-gradient(360deg, #0094e9 0%, #80D0C7 100%);
+    background-image: url('backimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+img
+{
+    border:2px solid;
+    padding:0px;
+    margin:30px;
+    /* text-align:center; */
+
+}
+button
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding:5px;
+    font-size:medium;
+}

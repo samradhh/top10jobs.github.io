@@ -1,0 +1,102 @@
+<html>
+<head>
+    <title>ABC INFOTECH</title>
+    <style>  
+        body
+        {
+            height: 100vh;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background: skyblue
+        }
+        input
+        {
+            font-size: 16px; margin-right: 10px;
+        }
+        input::placeholder {color: #10101000;}
+        input[type = "radio"]{ margin: 0 10px;}
+        input[type = "checkbox"] { margin: 0 10px;}
+        textarea
+        {
+            width: 620px;
+            height: 150px;
+            resize: none;
+            padding: 8px 10px;
+            font-size: 16px;
+            border: 1px solid #101010;
+            border-radius: 5px;
+        }
+        textarea::placeholder
+        {
+            color: #101010;
+        }
+    </style>
+</head>
+<body>
+	<h2></h2>
+    <font size="15"><h3><center>REGISTRARTON FOR RECRUITMENT</center></h3></font>
+    <form>
+        <table align="center" bgcolor="orange">
+         <tr>
+             <td>User Name</td>
+             <td><input type="text" name="t1" required></td>
+         </tr> 
+         <tr>   
+             <td>Password</td>
+             <td><input type="password" name="pass" required></td>
+         </tr> 
+		 <tr>   
+             <td>date of birth</td>
+             <td><input type="date" name="dob" required></td>
+         </tr> 
+         <tr>   
+             <td>Confirm Password</td>
+             <td><input type="password" name="cpass" required></td>
+         </tr> 
+         <tr>
+             <td>Email Id</td>
+             <td><input type="email" name="em" required></td>
+         </tr>
+         <tr>
+             <td>Contact Number</td>
+             <td><input type="Number" name="mn" required></td>
+         </tr>
+         <tr>
+            <td>Gender</td>
+            <td>Male<input type="radio" name="gen" value="Male" required><br>
+            Female<input type="radio" name="gen" value="Female" required
+			<td>transgender<input type="radio" name="gen" value="transgender" required>
+        </tr> 
+        <tr>
+            <td>Highest Qualification</td>
+            <td><select name="hq">
+                <option>Select</option>
+                <option>Undergraduate</option>
+                <option>Post Graduate</option>
+                <option>Doctrate</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Languages Known</td>
+            <td><input type="checkbox" name="language" value="English">English<br>
+                <input type="checkbox" name="language" value="Hindi">Hindi<br>
+                <input type="checkbox" name="language" value="Others">Others<br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Preferred Programming Languages</td>
+            <td><input type="checkbox" name="pl" value="C++">C++<br>
+                <input type="checkbox" name="pl" value="Java">Java<br>
+                <input type="checkbox" name="pl" value="Python">Python<br>
+                <input type="checkbox" name="pl" value="Others">Others<br>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><textarea name="describe" placeholder="Describe yourself in two lines"></textarea></td>
+        </tr>
+        <tr><td align="center" colspan="2"><input type="submit" name="sub"></td></tr>
+        </table>
+     </form>
+</body>
+</html>

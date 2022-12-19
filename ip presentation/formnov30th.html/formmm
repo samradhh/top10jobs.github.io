@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>
+Data Collection
+</title>
+<style>
+input[type=text], input[type=submit]
+{
+width:150px;
+height:30px;
+}
+table
+{
+border-radius:10px;
+background-color:pink;
+width:100px;
+height:100px;
+}
+h1
+{
+text-align:center;
+background-color:yellow;
+
+}
+</style>
+</head>
+<body bgcolor=cyan>
+<h1>Enter your data</h1>
+<form action="data_process.php">
+<table align=center>
+<tr>
+<td>Name</td>
+<td><input type=text name=name placeholder="Enter your name"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type=radio name=gen value="male">Male<br><input type=radio name=gen value="female">Female</td>
+</tr>
+<td colspan=2 align=center><input type=submit name=GO></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
